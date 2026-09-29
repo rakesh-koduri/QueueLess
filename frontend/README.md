@@ -1,16 +1,109 @@
-# React + Vite
+# QueueLess 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+QueueLess is a real-time queue and appointment management platform designed to help businesses manage customer queues efficiently while allowing customers to join and monitor queues remotely.
 
-Currently, two official plugins are available:
+The platform provides separate experiences for customers and business owners with authentication, business management, service management, queue management, QR-based access, real-time updates, notifications, and analytics.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 👤 Customer Features
 
-## Expanding the ESLint configuration
+- User registration and login
+- JWT-based authentication
+- Profile management
+- Update profile information
+- Change password
+- Forgot password
+- Browse available businesses
+- Search businesses
+- Filter businesses by category and city
+- View business details
+- View available services
+- Join a service queue
+- View current queue position
+- Track queue status in real time
+- Receive queue notifications
+- View queue history
+- Access businesses through QR code
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🏢 Business Owner Features
+
+- Business owner authentication
+- Business profile management
+- Update business information
+- Open / close business
+- Enable / disable queue
+- Manage business services
+- Add services
+- Update services
+- Delete services
+- View active customer queues
+- Call next customer
+- Complete customer queue
+- Skip customer queue
+- Generate business QR code
+- Real-time queue monitoring
+- Notifications
+- Analytics dashboard
+- Account settings
+- Profile management
+- Change password
+
+---
+
+## 🛠️ Technology Stack
+
+### Frontend
+
+- React.js
+- Vite
+- JavaScript
+- CSS
+- Socket.IO Client
+- QRCode React
+
+### Backend
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+- bcrypt
+- Socket.IO
+- REST APIs
+
+### Development Tools
+
+- Visual Studio Code
+- Git
+- GitHub
+- Postman
+
+---
+
+## 🏗️ Project Structure
+
+```text
+QueueLess/
+│
+├── backend/
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── server.js
+│   ├── package.json
+│   └── .env
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── ...
+│
+├── .gitignore
+└── README.md
