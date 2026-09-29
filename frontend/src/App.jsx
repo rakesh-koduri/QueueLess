@@ -4,7 +4,7 @@ import { io } from "socket.io-client";
 import { QRCodeCanvas } from "qrcode.react";
 import "./App.css";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://queueless-backend-hwtr.onrender.com/api";
 
 function App() {
   // ==========================================
